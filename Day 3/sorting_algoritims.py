@@ -1,6 +1,6 @@
 array = []
 
-with open("sorting_data_2.txt", "r") as f:
+with open("Day 3\sorting_data_2.txt", "r") as f:
     lines = f.read().splitlines()
     for lines in lines: 
         array.append(int(lines))
@@ -95,7 +95,7 @@ def merge_sort(array):
 
 # bubble_sorting(array)
 # my_sorting_algorithm()
-x = bubble_sort(array)
+x = merge_sort(array)
 
 for i in x:
     print(i)
